@@ -1,0 +1,7 @@
+RegionCode;AdressID;Task;Effort;Status;StartDate
+A;A1;Remove Fence;2.5;DONE;12/4/2020
+A;A2;Clean chimney;4.75;DONE;12/03/2020
+C;C1;Plan Afterwork Party;3.4;PAUSED;17.12.2020
+C;C2;Oil door hinge;2.2;WIP;20.12.2020
+B;B1;Anesthetize dogs;8.15;NEW;12/23/2020
+B;B2;Reposition garage;12.3;NEW;21.12.2020
