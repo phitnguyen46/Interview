@@ -96,121 +96,6 @@
           "lib/CookComputing.XmlRpcV2.dll": {}
         }
       },
-      "CopyFromUiPath.Word.Activities/1.5.3": {
-        "type": "package",
-        "dependencies": {
-          "DocX": "1.0.0.18"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/UiPath.Word.Activities.Design.dll": {},
-          "lib/net461/UiPath.Word.Activities.dll": {},
-          "lib/net461/UiPath.Word.dll": {}
-        },
-        "resource": {
-          "lib/net461/de/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.Word.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.Word.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/es-MX/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.Word.Activities.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.Word.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.Word.Activities.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.Word.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/fr/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.Word.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.Word.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/ja/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.Word.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.Word.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ko/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.Word.Activities.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.Word.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/pt-BR/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.Word.Activities.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.Word.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.Word.Activities.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.Word.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/ru/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.Word.Activities.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.Word.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/tr/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.Word.Activities.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.Word.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/zh-CN/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.Word.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.Word.resources.dll": {
-            "locale": "zh-CN"
-          }
-        }
-      },
       "CredentialManagement/1.0.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -306,53 +191,6 @@
         "runtime": {
           "lib/net45/Fluent.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
-        }
-      },
-      "FluentFTP/19.1.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System",
-          "System.Core",
-          "System.Data",
-          "System.Drawing",
-          "System.IO.Compression.FileSystem",
-          "System.Numerics",
-          "System.Runtime.Serialization",
-          "System.Web",
-          "System.Xml",
-          "System.Xml.Linq"
-        ],
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/FluentFTP.dll": {}
-        }
-      },
-      "Google.Api.Gax/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/Google.Api.Gax.dll": {}
-        }
-      },
-      "Google.Api.Gax.Rest/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Api.Gax": "3.1.0",
-          "Google.Apis.Auth": "[1.48.0, 2.0.0)"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/Google.Api.Gax.Rest.dll": {}
         }
       },
       "Google.Apis/1.49.0": {
@@ -505,45 +343,6 @@
         },
         "runtime": {
           "lib/net45/Google.Apis.Sheets.v4.dll": {}
-        }
-      },
-      "Google.Apis.Storage.v1/1.49.0.2044": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.49.0",
-          "Google.Apis.Auth": "1.49.0"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/Google.Apis.Storage.v1.dll": {}
-        }
-      },
-      "Google.Apis.Vision.v1/1.49.0.2167": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.49.0",
-          "Google.Apis.Auth": "1.49.0"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/Google.Apis.Vision.v1.dll": {}
-        }
-      },
-      "Google.Cloud.Storage.V1/3.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Api.Gax.Rest": "[3.1.0, 4.0.0)",
-          "Google.Apis.Storage.v1": "[1.49.0.2044, 2.0.0)"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/Google.Cloud.Storage.V1.dll": {}
         }
       },
       "Humanizer.Core/2.4.2": {
@@ -1033,15 +832,6 @@
         },
         "runtime": {
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
-        }
-      },
-      "SSH.NET/2016.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/_._": {}
-        },
-        "runtime": {
-          "lib/net40/Renci.SshNet.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -3534,121 +3324,6 @@
           "lib/CookComputing.XmlRpcV2.dll": {}
         }
       },
-      "CopyFromUiPath.Word.Activities/1.5.3": {
-        "type": "package",
-        "dependencies": {
-          "DocX": "1.0.0.18"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/UiPath.Word.Activities.Design.dll": {},
-          "lib/net461/UiPath.Word.Activities.dll": {},
-          "lib/net461/UiPath.Word.dll": {}
-        },
-        "resource": {
-          "lib/net461/de/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.Word.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.Word.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/es-MX/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.Word.Activities.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.Word.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.Word.Activities.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.Word.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/fr/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.Word.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.Word.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/ja/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.Word.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.Word.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ko/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.Word.Activities.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.Word.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/pt-BR/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.Word.Activities.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.Word.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.Word.Activities.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.Word.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/ru/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.Word.Activities.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.Word.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/tr/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.Word.Activities.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.Word.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/zh-CN/UiPath.Word.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.Word.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.Word.resources.dll": {
-            "locale": "zh-CN"
-          }
-        }
-      },
       "CredentialManagement/1.0.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -3744,53 +3419,6 @@
         "runtime": {
           "lib/net45/Fluent.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
-        }
-      },
-      "FluentFTP/19.1.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System",
-          "System.Core",
-          "System.Data",
-          "System.Drawing",
-          "System.IO.Compression.FileSystem",
-          "System.Numerics",
-          "System.Runtime.Serialization",
-          "System.Web",
-          "System.Xml",
-          "System.Xml.Linq"
-        ],
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/FluentFTP.dll": {}
-        }
-      },
-      "Google.Api.Gax/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/Google.Api.Gax.dll": {}
-        }
-      },
-      "Google.Api.Gax.Rest/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Api.Gax": "3.1.0",
-          "Google.Apis.Auth": "[1.48.0, 2.0.0)"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/Google.Api.Gax.Rest.dll": {}
         }
       },
       "Google.Apis/1.49.0": {
@@ -3943,45 +3571,6 @@
         },
         "runtime": {
           "lib/net45/Google.Apis.Sheets.v4.dll": {}
-        }
-      },
-      "Google.Apis.Storage.v1/1.49.0.2044": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.49.0",
-          "Google.Apis.Auth": "1.49.0"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/Google.Apis.Storage.v1.dll": {}
-        }
-      },
-      "Google.Apis.Vision.v1/1.49.0.2167": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.49.0",
-          "Google.Apis.Auth": "1.49.0"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/Google.Apis.Vision.v1.dll": {}
-        }
-      },
-      "Google.Cloud.Storage.V1/3.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Api.Gax.Rest": "[3.1.0, 4.0.0)",
-          "Google.Apis.Storage.v1": "[1.49.0.2044, 2.0.0)"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/Google.Cloud.Storage.V1.dll": {}
         }
       },
       "Humanizer.Core/2.4.2": {
@@ -4471,15 +4060,6 @@
         },
         "runtime": {
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
-        }
-      },
-      "SSH.NET/2016.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/_._": {}
-        },
-        "runtime": {
-          "lib/net40/Renci.SshNet.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -7014,53 +6594,6 @@
         "lib/CookComputing.XmlRpcV2.dll"
       ]
     },
-    "CopyFromUiPath.Word.Activities/1.5.3": {
-      "sha512": "aCprQINUt9IBo5cR9q8J3K13DNRQy1PViDfO+BB4sGvTLk/bRaI/6Qz/eU4rRUoLUAK9/ULcWevFW0wsrbtZaA==",
-      "type": "package",
-      "path": "copyfromuipath.word.activities/1.5.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "copyfromuipath.word.activities.1.5.3.nupkg.sha512",
-        "copyfromuipath.word.activities.nuspec",
-        "lib/net461/UiPath.Word.Activities.Design.dll",
-        "lib/net461/UiPath.Word.Activities.dll",
-        "lib/net461/UiPath.Word.dll",
-        "lib/net461/de/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/de/UiPath.Word.Activities.resources.dll",
-        "lib/net461/de/UiPath.Word.resources.dll",
-        "lib/net461/es-MX/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/es-MX/UiPath.Word.Activities.resources.dll",
-        "lib/net461/es-MX/UiPath.Word.resources.dll",
-        "lib/net461/es/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/es/UiPath.Word.Activities.resources.dll",
-        "lib/net461/es/UiPath.Word.resources.dll",
-        "lib/net461/fr/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/fr/UiPath.Word.Activities.resources.dll",
-        "lib/net461/fr/UiPath.Word.resources.dll",
-        "lib/net461/ja/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/ja/UiPath.Word.Activities.resources.dll",
-        "lib/net461/ja/UiPath.Word.resources.dll",
-        "lib/net461/ko/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/ko/UiPath.Word.Activities.resources.dll",
-        "lib/net461/ko/UiPath.Word.resources.dll",
-        "lib/net461/pt-BR/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/pt-BR/UiPath.Word.Activities.resources.dll",
-        "lib/net461/pt-BR/UiPath.Word.resources.dll",
-        "lib/net461/pt/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/pt/UiPath.Word.Activities.resources.dll",
-        "lib/net461/pt/UiPath.Word.resources.dll",
-        "lib/net461/ru/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/ru/UiPath.Word.Activities.resources.dll",
-        "lib/net461/ru/UiPath.Word.resources.dll",
-        "lib/net461/tr/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/tr/UiPath.Word.Activities.resources.dll",
-        "lib/net461/tr/UiPath.Word.resources.dll",
-        "lib/net461/zh-CN/UiPath.Word.Activities.Design.resources.dll",
-        "lib/net461/zh-CN/UiPath.Word.Activities.resources.dll",
-        "lib/net461/zh-CN/UiPath.Word.resources.dll"
-      ]
-    },
     "CredentialManagement/1.0.2": {
       "sha512": "VkP04/jFXaxT3TkcRhzETYtOrznQxRmQ2J1XJdbXz47Bir7hIzPR7mFZk4GJQ4An4gozW+vonpf+iqTHomAkQw==",
       "type": "package",
@@ -7168,67 +6701,6 @@
         "lib/net45/Fluent.dll",
         "lib/net45/Fluent.pdb",
         "lib/net45/System.Windows.Interactivity.dll"
-      ]
-    },
-    "FluentFTP/19.1.2": {
-      "sha512": "0xvKcao/sUbZQgD2PhXHejl9msxUzuU7cSpczDb2MnI1cUwp1ViS8FjkPjPE9C6UucLgII4nIpq8VYEvNyjgoQ==",
-      "type": "package",
-      "path": "fluentftp/19.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fluentftp.19.1.2.nupkg.sha512",
-        "fluentftp.nuspec",
-        "lib/net20/FluentFTP.dll",
-        "lib/net20/FluentFTP.xml",
-        "lib/net35/FluentFTP.dll",
-        "lib/net35/FluentFTP.xml",
-        "lib/net40/FluentFTP.dll",
-        "lib/net40/FluentFTP.xml",
-        "lib/net45/FluentFTP.dll",
-        "lib/net45/FluentFTP.xml",
-        "lib/netstandard1.4/FluentFTP.dll",
-        "lib/netstandard1.4/FluentFTP.xml",
-        "lib/netstandard1.6/FluentFTP.dll",
-        "lib/netstandard1.6/FluentFTP.xml"
-      ]
-    },
-    "Google.Api.Gax/3.1.0": {
-      "sha512": "OTixRj0iZqpC/RKdS0S3pMjfAUlay6+fXWZ7+7CcfftHMJpDJ6oDvrABB4+lDdB7+p0+Nh6zWpmwcCooDyk6cg==",
-      "type": "package",
-      "path": "google.api.gax/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.api.gax.3.1.0.nupkg.sha512",
-        "google.api.gax.nuspec",
-        "lib/net461/Google.Api.Gax.dll",
-        "lib/net461/Google.Api.Gax.pdb",
-        "lib/net461/Google.Api.Gax.xml",
-        "lib/netstandard2.0/Google.Api.Gax.dll",
-        "lib/netstandard2.0/Google.Api.Gax.pdb",
-        "lib/netstandard2.0/Google.Api.Gax.xml"
-      ]
-    },
-    "Google.Api.Gax.Rest/3.1.0": {
-      "sha512": "rFcTmHkkPM4EZJ6SUjiKPwtl16rlbOitLxZGZRWN/Ec8iqO+1rcHVwUdw4M1tFyuRmO9yOxfvwLugT1cKZyqpA==",
-      "type": "package",
-      "path": "google.api.gax.rest/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.api.gax.rest.3.1.0.nupkg.sha512",
-        "google.api.gax.rest.nuspec",
-        "lib/net461/Google.Api.Gax.Rest.dll",
-        "lib/net461/Google.Api.Gax.Rest.pdb",
-        "lib/net461/Google.Api.Gax.Rest.xml",
-        "lib/netstandard2.0/Google.Api.Gax.Rest.dll",
-        "lib/netstandard2.0/Google.Api.Gax.Rest.pdb",
-        "lib/netstandard2.0/Google.Api.Gax.Rest.xml"
       ]
     },
     "Google.Apis/1.49.0": {
@@ -7514,79 +6986,6 @@
         "lib/netstandard2.0/Google.Apis.Sheets.v4.dll",
         "lib/netstandard2.0/Google.Apis.Sheets.v4.pdb",
         "lib/netstandard2.0/Google.Apis.Sheets.v4.xml"
-      ]
-    },
-    "Google.Apis.Storage.v1/1.49.0.2044": {
-      "sha512": "6R8gOuEtwWScNomUbvIa+XnvFA3pPXQyaQXdeGs9fpE0kXKwdsqZAoMo0Ai6ohnafXWJmdd/ve9eV/bHDarSTQ==",
-      "type": "package",
-      "path": "google.apis.storage.v1/1.49.0.2044",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "google.apis.storage.v1.1.49.0.2044.nupkg.sha512",
-        "google.apis.storage.v1.nuspec",
-        "lib/net40/Google.Apis.Storage.v1.dll",
-        "lib/net40/Google.Apis.Storage.v1.pdb",
-        "lib/net40/Google.Apis.Storage.v1.xml",
-        "lib/net45/Google.Apis.Storage.v1.dll",
-        "lib/net45/Google.Apis.Storage.v1.pdb",
-        "lib/net45/Google.Apis.Storage.v1.xml",
-        "lib/netstandard1.0/Google.Apis.Storage.v1.dll",
-        "lib/netstandard1.0/Google.Apis.Storage.v1.pdb",
-        "lib/netstandard1.0/Google.Apis.Storage.v1.xml",
-        "lib/netstandard1.3/Google.Apis.Storage.v1.dll",
-        "lib/netstandard1.3/Google.Apis.Storage.v1.pdb",
-        "lib/netstandard1.3/Google.Apis.Storage.v1.xml",
-        "lib/netstandard2.0/Google.Apis.Storage.v1.dll",
-        "lib/netstandard2.0/Google.Apis.Storage.v1.pdb",
-        "lib/netstandard2.0/Google.Apis.Storage.v1.xml"
-      ]
-    },
-    "Google.Apis.Vision.v1/1.49.0.2167": {
-      "sha512": "CxPaxeM77+n5Yr1hio0mUUkE8+iPV2jrHJ0QYChWzloZ+3c1DSBX/n2Vc8Qs32N4FHGzP3BuggMFQCA3Au5bdA==",
-      "type": "package",
-      "path": "google.apis.vision.v1/1.49.0.2167",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "google.apis.vision.v1.1.49.0.2167.nupkg.sha512",
-        "google.apis.vision.v1.nuspec",
-        "lib/net40/Google.Apis.Vision.v1.dll",
-        "lib/net40/Google.Apis.Vision.v1.pdb",
-        "lib/net40/Google.Apis.Vision.v1.xml",
-        "lib/net45/Google.Apis.Vision.v1.dll",
-        "lib/net45/Google.Apis.Vision.v1.pdb",
-        "lib/net45/Google.Apis.Vision.v1.xml",
-        "lib/netstandard1.0/Google.Apis.Vision.v1.dll",
-        "lib/netstandard1.0/Google.Apis.Vision.v1.pdb",
-        "lib/netstandard1.0/Google.Apis.Vision.v1.xml",
-        "lib/netstandard1.3/Google.Apis.Vision.v1.dll",
-        "lib/netstandard1.3/Google.Apis.Vision.v1.pdb",
-        "lib/netstandard1.3/Google.Apis.Vision.v1.xml",
-        "lib/netstandard2.0/Google.Apis.Vision.v1.dll",
-        "lib/netstandard2.0/Google.Apis.Vision.v1.pdb",
-        "lib/netstandard2.0/Google.Apis.Vision.v1.xml"
-      ]
-    },
-    "Google.Cloud.Storage.V1/3.3.0": {
-      "sha512": "hFn9h2UTyi/WGC0i/YN1u6AZS1ETl7KPenvG87iOCgdJK8UG21lzSMFAKudl3p6Oe2vLuuiP8tk9U1MLGS6Njw==",
-      "type": "package",
-      "path": "google.cloud.storage.v1/3.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.cloud.storage.v1.3.3.0.nupkg.sha512",
-        "google.cloud.storage.v1.nuspec",
-        "lib/net461/Google.Cloud.Storage.V1.dll",
-        "lib/net461/Google.Cloud.Storage.V1.pdb",
-        "lib/net461/Google.Cloud.Storage.V1.xml",
-        "lib/netstandard2.0/Google.Cloud.Storage.V1.dll",
-        "lib/netstandard2.0/Google.Cloud.Storage.V1.pdb",
-        "lib/netstandard2.0/Google.Cloud.Storage.V1.xml"
       ]
     },
     "Humanizer.Core/2.4.2": {
@@ -8317,33 +7716,6 @@
         "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
         "sharpziplib.1.2.0.nupkg.sha512",
         "sharpziplib.nuspec"
-      ]
-    },
-    "SSH.NET/2016.1.0": {
-      "sha512": "b0fcFFOE044KNRhq1uGujmK04ab+OzA9xARdeVCoZrY6I4D1IIaR6dn6qBIa+er4bJapGBhznDitwcRQpSRC0w==",
-      "type": "package",
-      "path": "ssh.net/2016.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/Renci.SshNet.dll",
-        "lib/net35/Renci.SshNet.xml",
-        "lib/net40/Renci.SshNet.dll",
-        "lib/net40/Renci.SshNet.xml",
-        "lib/netstandard1.3/Renci.SshNet.dll",
-        "lib/netstandard1.3/Renci.SshNet.xml",
-        "lib/sl4/Renci.SshNet.dll",
-        "lib/sl4/Renci.SshNet.xml",
-        "lib/sl5/Renci.SshNet.dll",
-        "lib/sl5/Renci.SshNet.xml",
-        "lib/uap10/Renci.SshNet.dll",
-        "lib/uap10/Renci.SshNet.xml",
-        "lib/wp71/Renci.SshNet.dll",
-        "lib/wp71/Renci.SshNet.xml",
-        "lib/wp8/Renci.SshNet.dll",
-        "lib/wp8/Renci.SshNet.xml",
-        "ssh.net.2016.1.0.nupkg.sha512",
-        "ssh.net.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -10217,15 +9589,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Phi\\.nuget\\packages\\": {}
+    "C:\\Users\\phihu\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "InterviewFramework",
       "projectName": "InterviewFramework",
-      "projectPath": "C:\\Users\\Phi\\Dropbox\\My PC (DESKTOP-PRIGIQH)\\Documents\\GitHub\\Interview\\.local",
-      "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Phi\\Dropbox\\My PC (DESKTOP-PRIGIQH)\\Documents\\GitHub\\Interview\\.local"
+      "projectPath": "C:\\Users\\phihu\\Documents\\GitHub\\Interview\\.local",
+      "packagesPath": "C:\\Users\\phihu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phihu\\Documents\\GitHub\\Interview\\.local"
     },
     "frameworks": {
       "net461": {
@@ -10341,11 +9713,33 @@
             "version": "[1.1.7382.28686, 1.1.7382.28686]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Phi\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\phihu\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\runtime.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UiPath.GSuite.Activities 1.8.0 depends on Newtonsoft.Json (>= 11.0.1) but Newtonsoft.Json 11.0.1 was not found. An approximate best match of Newtonsoft.Json 11.0.2 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UiPath.Mail.Activities 1.10.0-preview depends on Newtonsoft.Json (>= 11.0.1) but Newtonsoft.Json 11.0.1 was not found. An approximate best match of Newtonsoft.Json 11.0.2 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
     {
       "code": "NU1603",
       "level": "Warning",
@@ -10363,6 +9757,56 @@
       "warningLevel": 1,
       "message": "UiPath.GoogleVision.Activities 1.2.0 depends on UiPath.Telemetry.Client (>= 1.3.14) but UiPath.Telemetry.Client 1.3.14 was not found. An approximate best match of UiPath.Telemetry.Client 1.3.16 was resolved.",
       "libraryId": "UiPath.Telemetry.Client",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package CopyFromUiPath.Word.Activities. No packages exist with this id in source(s): C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\, C:\\Users\\phihu\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\Packages, Connect, https://gallery.uipath.com/api/v2, https://www.myget.org/F/workflow/, https://www.myget.org/F/workflow/, Local, Microsoft Visual Studio Offline Packages, Official",
+      "libraryId": "CopyFromUiPath.Word.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package FluentFTP. No packages exist with this id in source(s): C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\, C:\\Users\\phihu\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\Packages, Connect, https://gallery.uipath.com/api/v2, https://www.myget.org/F/workflow/, https://www.myget.org/F/workflow/, Local, Microsoft Visual Studio Offline Packages, Official",
+      "libraryId": "FluentFTP",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package SSH.NET with version (>= 2016.1.0)\r\n  - Found 1 version(s) in https://www.myget.org/F/workflow/ [ Nearest version: 2013.4.7 ]\r\n  - Found 1 version(s) in https://www.myget.org/F/workflow/ [ Nearest version: 2013.4.7 ]\r\n  - Found 1 version(s) in Official [ Nearest version: 2013.4.7 ]\r\n  - Found 0 version(s) in C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Users\\phihu\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\Packages\r\n  - Found 0 version(s) in Local\r\n  - Found 0 version(s) in https://gallery.uipath.com/api/v2\r\n  - Found 0 version(s) in Connect",
+      "libraryId": "SSH.NET",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Google.Cloud.Storage.V1. No packages exist with this id in source(s): C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\, C:\\Users\\phihu\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\Packages, Connect, https://gallery.uipath.com/api/v2, https://www.myget.org/F/workflow/, https://www.myget.org/F/workflow/, Local, Microsoft Visual Studio Offline Packages, Official",
+      "libraryId": "Google.Cloud.Storage.V1",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Google.Apis.Vision.v1. No packages exist with this id in source(s): C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\, C:\\Users\\phihu\\AppData\\Local\\UiPath\\app-21.2.0-beta0044\\Packages, Connect, https://gallery.uipath.com/api/v2, https://www.myget.org/F/workflow/, https://www.myget.org/F/workflow/, Local, Microsoft Visual Studio Offline Packages, Official",
+      "libraryId": "Google.Apis.Vision.v1",
       "targetGraphs": [
         ".NETFramework,Version=v4.6.1",
         ".NETFramework,Version=v4.6.1/win7-x86"
